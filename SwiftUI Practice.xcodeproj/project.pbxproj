@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA19BD892EC8EE600075DE4B /* APiCalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD6D2EC8EE600075DE4B /* APiCalling.swift */; };
+		FA19BD8A2EC8EE600075DE4B /* BindingPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD6F2EC8EE600075DE4B /* BindingPropertyWrapper.swift */; };
+		FA19BD8B2EC8EE600075DE4B /* ChangeTimeOfDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD702EC8EE600075DE4B /* ChangeTimeOfDayView.swift */; };
+		FA19BD8C2EC8EE600075DE4B /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD722EC8EE600075DE4B /* NavigationStackView.swift */; };
+		FA19BD8D2EC8EE600075DE4B /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD742EC8EE600075DE4B /* ChildView.swift */; };
+		FA19BD8E2EC8EE600075DE4B /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD752EC8EE600075DE4B /* ParentView.swift */; };
+		FA19BD8F2EC8EE600075DE4B /* Example01.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD772EC8EE600075DE4B /* Example01.swift */; };
+		FA19BD902EC8EE600075DE4B /* Example02.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD782EC8EE600075DE4B /* Example02.swift */; };
+		FA19BD912EC8EE600075DE4B /* Example03.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD792EC8EE600075DE4B /* Example03.swift */; };
+		FA19BD922EC8EE600075DE4B /* Example04.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD7A2EC8EE600075DE4B /* Example04.swift */; };
+		FA19BD932EC8EE600075DE4B /* StateAndObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD7C2EC8EE600075DE4B /* StateAndObservedObject.swift */; };
+		FA19BD942EC8EE600075DE4B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD7E2EC8EE600075DE4B /* MainView.swift */; };
+		FA19BD952EC8EE600075DE4B /* StateVsObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD7F2EC8EE600075DE4B /* StateVsObservedObject.swift */; };
+		FA19BD962EC8EE600075DE4B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD812EC8EE600075DE4B /* StateView.swift */; };
+		FA19BD972EC8EE600075DE4B /* WeatherAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD832EC8EE600075DE4B /* WeatherAppView.swift */; };
+		FA19BD982EC8EE600075DE4B /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD842EC8EE600075DE4B /* WeatherButton.swift */; };
+		FA19BD992EC8EE600075DE4B /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD872EC8EE600075DE4B /* SwiftUI_PracticeApp.swift */; };
+		FA19BD9A2EC8EE600075DE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA19BD862EC8EE600075DE4B /* Assets.xcassets */; };
+		FA19BD9D2EC909CB0075DE4B /* VSTACKExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD9C2EC909CB0075DE4B /* VSTACKExample.swift */; };
+		FA19BD9F2EC909E90075DE4B /* HStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD9E2EC909E90075DE4B /* HStackExample.swift */; };
+		FA19BDA12EC90A070075DE4B /* ZSTACKExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BDA02EC90A070075DE4B /* ZSTACKExample.swift */; };
+		FA19BDA32EC90A210075DE4B /* ZStackTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BDA22EC90A210075DE4B /* ZStackTask.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3884B7712E3D2F4D001BBCF2 /* SwiftUI Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA19BD6D2EC8EE600075DE4B /* APiCalling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APiCalling.swift; sourceTree = "<group>"; };
+		FA19BD6F2EC8EE600075DE4B /* BindingPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPropertyWrapper.swift; sourceTree = "<group>"; };
+		FA19BD702EC8EE600075DE4B /* ChangeTimeOfDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTimeOfDayView.swift; sourceTree = "<group>"; };
+		FA19BD722EC8EE600075DE4B /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		FA19BD742EC8EE600075DE4B /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
+		FA19BD752EC8EE600075DE4B /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		FA19BD772EC8EE600075DE4B /* Example01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example01.swift; sourceTree = "<group>"; };
+		FA19BD782EC8EE600075DE4B /* Example02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example02.swift; sourceTree = "<group>"; };
+		FA19BD792EC8EE600075DE4B /* Example03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example03.swift; sourceTree = "<group>"; };
+		FA19BD7A2EC8EE600075DE4B /* Example04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example04.swift; sourceTree = "<group>"; };
+		FA19BD7C2EC8EE600075DE4B /* StateAndObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndObservedObject.swift; sourceTree = "<group>"; };
+		FA19BD7E2EC8EE600075DE4B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA19BD7F2EC8EE600075DE4B /* StateVsObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVsObservedObject.swift; sourceTree = "<group>"; };
+		FA19BD812EC8EE600075DE4B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		FA19BD832EC8EE600075DE4B /* WeatherAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppView.swift; sourceTree = "<group>"; };
+		FA19BD842EC8EE600075DE4B /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		FA19BD862EC8EE600075DE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA19BD872EC8EE600075DE4B /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
+		FA19BD9C2EC909CB0075DE4B /* VSTACKExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSTACKExample.swift; sourceTree = "<group>"; };
+		FA19BD9E2EC909E90075DE4B /* HStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExample.swift; sourceTree = "<group>"; };
+		FA19BDA02EC90A070075DE4B /* ZSTACKExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSTACKExample.swift; sourceTree = "<group>"; };
+		FA19BDA22EC90A210075DE4B /* ZStackTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackTask.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3884B76E2E3D2F4D001BBCF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3884B7682E3D2F4D001BBCF2 = {
+			isa = PBXGroup;
+			children = (
+				3884B7722E3D2F4D001BBCF2 /* Products */,
+				FA19BD882EC8EE600075DE4B /* SwiftUI Practice */,
+			);
+			sourceTree = "<group>";
+		};
+		3884B7722E3D2F4D001BBCF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3884B7712E3D2F4D001BBCF2 /* SwiftUI Practice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA19BD6E2EC8EE600075DE4B /* ApiCalling */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD6D2EC8EE600075DE4B /* APiCalling.swift */,
+			);
+			path = ApiCalling;
+			sourceTree = "<group>";
+		};
+		FA19BD712EC8EE600075DE4B /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD6F2EC8EE600075DE4B /* BindingPropertyWrapper.swift */,
+				FA19BD702EC8EE600075DE4B /* ChangeTimeOfDayView.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		FA19BD732EC8EE600075DE4B /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD722EC8EE600075DE4B /* NavigationStackView.swift */,
+			);
+			path = NavigationStack;
+			sourceTree = "<group>";
+		};
+		FA19BD762EC8EE600075DE4B /* State And Binding Property */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD742EC8EE600075DE4B /* ChildView.swift */,
+				FA19BD752EC8EE600075DE4B /* ParentView.swift */,
+			);
+			path = "State And Binding Property";
+			sourceTree = "<group>";
+		};
+		FA19BD7B2EC8EE600075DE4B /* StateAndBinding */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD772EC8EE600075DE4B /* Example01.swift */,
+				FA19BD782EC8EE600075DE4B /* Example02.swift */,
+				FA19BD792EC8EE600075DE4B /* Example03.swift */,
+				FA19BD7A2EC8EE600075DE4B /* Example04.swift */,
+			);
+			path = StateAndBinding;
+			sourceTree = "<group>";
+		};
+		FA19BD7D2EC8EE600075DE4B /* StateAndObservedObject */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD7C2EC8EE600075DE4B /* StateAndObservedObject.swift */,
+			);
+			path = StateAndObservedObject;
+			sourceTree = "<group>";
+		};
+		FA19BD802EC8EE600075DE4B /* StateObjectVsObservedObject */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD7E2EC8EE600075DE4B /* MainView.swift */,
+				FA19BD7F2EC8EE600075DE4B /* StateVsObservedObject.swift */,
+			);
+			path = StateObjectVsObservedObject;
+			sourceTree = "<group>";
+		};
+		FA19BD822EC8EE600075DE4B /* StateView */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD812EC8EE600075DE4B /* StateView.swift */,
+			);
+			path = StateView;
+			sourceTree = "<group>";
+		};
+		FA19BD852EC8EE600075DE4B /* WeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD832EC8EE600075DE4B /* WeatherAppView.swift */,
+				FA19BD842EC8EE600075DE4B /* WeatherButton.swift */,
+			);
+			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		FA19BD882EC8EE600075DE4B /* SwiftUI Practice */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD9B2EC909BC0075DE4B /* StackConcepts */,
+				FA19BD6E2EC8EE600075DE4B /* ApiCalling */,
+				FA19BD712EC8EE600075DE4B /* Binding */,
+				FA19BD732EC8EE600075DE4B /* NavigationStack */,
+				FA19BD762EC8EE600075DE4B /* State And Binding Property */,
+				FA19BD7B2EC8EE600075DE4B /* StateAndBinding */,
+				FA19BD7D2EC8EE600075DE4B /* StateAndObservedObject */,
+				FA19BD802EC8EE600075DE4B /* StateObjectVsObservedObject */,
+				FA19BD822EC8EE600075DE4B /* StateView */,
+				FA19BD852EC8EE600075DE4B /* WeatherApp */,
+				FA19BD862EC8EE600075DE4B /* Assets.xcassets */,
+				FA19BD872EC8EE600075DE4B /* SwiftUI_PracticeApp.swift */,
+			);
+			path = "SwiftUI Practice";
+			sourceTree = "<group>";
+		};
+		FA19BD9B2EC909BC0075DE4B /* StackConcepts */ = {
+			isa = PBXGroup;
+			children = (
+				FA19BD9C2EC909CB0075DE4B /* VSTACKExample.swift */,
+				FA19BD9E2EC909E90075DE4B /* HStackExample.swift */,
+				FA19BDA02EC90A070075DE4B /* ZSTACKExample.swift */,
+				FA19BDA22EC90A210075DE4B /* ZStackTask.swift */,
+			);
+			path = StackConcepts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3884B7702E3D2F4D001BBCF2 /* SwiftUI Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3884B77C2E3D2F4E001BBCF2 /* Build configuration list for PBXNativeTarget "SwiftUI Practice" */;
+			buildPhases = (
+				3884B76D2E3D2F4D001BBCF2 /* Sources */,
+				3884B76E2E3D2F4D001BBCF2 /* Frameworks */,
+				3884B76F2E3D2F4D001BBCF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Practice";
+			packageProductDependencies = (
+			);
+			productName = "SwiftUI Practice";
+			productReference = 3884B7712E3D2F4D001BBCF2 /* SwiftUI Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3884B7692E3D2F4D001BBCF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					3884B7702E3D2F4D001BBCF2 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 3884B76C2E3D2F4D001BBCF2 /* Build configuration list for PBXProject "SwiftUI Practice" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3884B7682E3D2F4D001BBCF2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3884B7722E3D2F4D001BBCF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3884B7702E3D2F4D001BBCF2 /* SwiftUI Practice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3884B76F2E3D2F4D001BBCF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA19BD9A2EC8EE600075DE4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3884B76D2E3D2F4D001BBCF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA19BD892EC8EE600075DE4B /* APiCalling.swift in Sources */,
+				FA19BD8A2EC8EE600075DE4B /* BindingPropertyWrapper.swift in Sources */,
+				FA19BD8B2EC8EE600075DE4B /* ChangeTimeOfDayView.swift in Sources */,
+				FA19BD8C2EC8EE600075DE4B /* NavigationStackView.swift in Sources */,
+				FA19BD8D2EC8EE600075DE4B /* ChildView.swift in Sources */,
+				FA19BDA32EC90A210075DE4B /* ZStackTask.swift in Sources */,
+				FA19BD8E2EC8EE600075DE4B /* ParentView.swift in Sources */,
+				FA19BD8F2EC8EE600075DE4B /* Example01.swift in Sources */,
+				FA19BD902EC8EE600075DE4B /* Example02.swift in Sources */,
+				FA19BD912EC8EE600075DE4B /* Example03.swift in Sources */,
+				FA19BD922EC8EE600075DE4B /* Example04.swift in Sources */,
+				FA19BDA12EC90A070075DE4B /* ZSTACKExample.swift in Sources */,
+				FA19BD9F2EC909E90075DE4B /* HStackExample.swift in Sources */,
+				FA19BD932EC8EE600075DE4B /* StateAndObservedObject.swift in Sources */,
+				FA19BD9D2EC909CB0075DE4B /* VSTACKExample.swift in Sources */,
+				FA19BD942EC8EE600075DE4B /* MainView.swift in Sources */,
+				FA19BD952EC8EE600075DE4B /* StateVsObservedObject.swift in Sources */,
+				FA19BD962EC8EE600075DE4B /* StateView.swift in Sources */,
+				FA19BD972EC8EE600075DE4B /* WeatherAppView.swift in Sources */,
+				FA19BD982EC8EE600075DE4B /* WeatherButton.swift in Sources */,
+				FA19BD992EC8EE600075DE4B /* SwiftUI_PracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3884B77A2E3D2F4E001BBCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3TL83G4867;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3884B77B2E3D2F4E001BBCF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3TL83G4867;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3884B77D2E3D2F4E001BBCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zahid.SwiftUI-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3884B77E2E3D2F4E001BBCF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8744QQHTB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zahid.SwiftUI-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3884B76C2E3D2F4D001BBCF2 /* Build configuration list for PBXProject "SwiftUI Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3884B77A2E3D2F4E001BBCF2 /* Debug */,
+				3884B77B2E3D2F4E001BBCF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3884B77C2E3D2F4E001BBCF2 /* Build configuration list for PBXNativeTarget "SwiftUI Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3884B77D2E3D2F4E001BBCF2 /* Debug */,
+				3884B77E2E3D2F4E001BBCF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3884B7692E3D2F4D001BBCF2 /* Project object */;
+}

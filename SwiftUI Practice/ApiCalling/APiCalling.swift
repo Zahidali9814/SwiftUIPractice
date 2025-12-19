@@ -16,7 +16,7 @@ struct ContentView: View {
             AsyncImage(url: URL(string: user?.avatarUrl ?? "" )) { image in
                 image
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
+                    .aspectRatio(contentMode: .fit)
                     .clipShape(Circle())
             } placeholder: {
                 Circle()
@@ -24,11 +24,11 @@ struct ContentView: View {
             }
             .frame(width: 100, height: 100)
             
-            Text(user?.login ?? "")
+            Text(user?.login ?? "loin placeholder")
                 .font(.title3)
                 .bold()
             
-            Text(user?.bio ?? "")
+            Text(user?.bio ?? "user bio placeholder")
                 .padding()
             Spacer()
         }

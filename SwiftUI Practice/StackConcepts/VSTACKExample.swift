@@ -15,7 +15,6 @@ struct VSTACKExample: View {
                     .font(.system(size: 28, weight: .bold))
                 Spacer()
             }
-            
             HStack {
                 Spacer()
                 Text("Example")

@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0C73152EF3C30900B6856F /* SwiftUI Essentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73142EF3C30900B6856F /* SwiftUI Essentials.swift */; };
+		FA0C73182EF3C5AE00B6856F /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73172EF3C5AE00B6856F /* ToDoItem.swift */; };
+		FA0C731A2EF3C60500B6856F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73192EF3C60500B6856F /* ListView.swift */; };
+		FA0C732C2EF3CE5A00B6856F /* StateManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C732B2EF3CE5A00B6856F /* StateManagement.swift */; };
+		FA0C73312EF3CFB100B6856F /* ToDo list.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73302EF3CFB100B6856F /* ToDo list.swift */; };
+		FA0C73332EF3DA4A00B6856F /* StateConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73322EF3DA4A00B6856F /* StateConcept.swift */; };
+		FA0C73352EF3DB1000B6856F /* BindingConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73342EF3DB1000B6856F /* BindingConcept.swift */; };
+		FA0C733D2EF40B6B00B6856F /* ObservedObjectConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C733C2EF40B6B00B6856F /* ObservedObjectConcept.swift */; };
+		FA0C733F2EF40C5500B6856F /* StateObjectConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C733E2EF40C5500B6856F /* StateObjectConcept.swift */; };
+		FA0C73412EF40CE000B6856F /* EnvironmentObjectPassingtoChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73402EF40CE000B6856F /* EnvironmentObjectPassingtoChildView.swift */; };
+		FA0C73432EF40FE600B6856F /* EnvironmentConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73422EF40FE600B6856F /* EnvironmentConcept.swift */; };
+		FA0C73452EF410F100B6856F /* NavigationView and NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73442EF410F100B6856F /* NavigationView and NavigationLink.swift */; };
+		FA0C73472EF4126300B6856F /* Presenting Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73462EF4126300B6856F /* Presenting Sheets.swift */; };
+		FA0C73492EF4148200B6856F /* Programmatic Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73482EF4148200B6856F /* Programmatic Navigation.swift */; };
+		FA0C734B2EF4169700B6856F /* FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C734A2EF4169700B6856F /* FullScreenCover.swift */; };
+		FA0C734D2EF417BB00B6856F /* Passing Data Using NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C734C2EF417BB00B6856F /* Passing Data Using NavigationLink.swift */; };
+		FA0C734F2EF4185700B6856F /* Passing Data Using Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C734E2EF4185700B6856F /* Passing Data Using Sheets.swift */; };
+		FA0C73512EF425B200B6856F /* Using EnvironmentObject for Shared Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73502EF425B200B6856F /* Using EnvironmentObject for Shared Data.swift */; };
+		FA0C73532EF426AF00B6856F /* Implicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73522EF426AF00B6856F /* Implicit Animations.swift */; };
+		FA0C73552EF427D000B6856F /* Explicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73542EF427D000B6856F /* Explicit Animations.swift */; };
+		FA0C73572EF428EF00B6856F /* Animating Bindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73562EF428EF00B6856F /* Animating Bindings.swift */; };
+		FA0C73592EF42AC400B6856F /* Transition Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73582EF42AC400B6856F /* Transition Animations.swift */; };
+		FA0C735B2EF42BD100B6856F /* Animating Complex Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C735A2EF42BD100B6856F /* Animating Complex Views.swift */; };
+		FA0C735D2EF42C9F00B6856F /* Creating Custom Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C735C2EF42C9F00B6856F /* Creating Custom Transitions.swift */; };
 		FA19BD892EC8EE600075DE4B /* APiCalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD6D2EC8EE600075DE4B /* APiCalling.swift */; };
 		FA19BD8A2EC8EE600075DE4B /* BindingPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD6F2EC8EE600075DE4B /* BindingPropertyWrapper.swift */; };
 		FA19BD8B2EC8EE600075DE4B /* ChangeTimeOfDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD702EC8EE600075DE4B /* ChangeTimeOfDayView.swift */; };
@@ -29,10 +53,35 @@
 		FA19BD9F2EC909E90075DE4B /* HStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD9E2EC909E90075DE4B /* HStackExample.swift */; };
 		FA19BDA12EC90A070075DE4B /* ZSTACKExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BDA02EC90A070075DE4B /* ZSTACKExample.swift */; };
 		FA19BDA32EC90A210075DE4B /* ZStackTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BDA22EC90A210075DE4B /* ZStackTask.swift */; };
+		FA518B632EE891B100D33185 /* GlassAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA518B622EE891B100D33185 /* GlassAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3884B7712E3D2F4D001BBCF2 /* SwiftUI Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0C73142EF3C30900B6856F /* SwiftUI Essentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI Essentials.swift"; sourceTree = "<group>"; };
+		FA0C73172EF3C5AE00B6856F /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		FA0C73192EF3C60500B6856F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		FA0C732B2EF3CE5A00B6856F /* StateManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManagement.swift; sourceTree = "<group>"; };
+		FA0C73302EF3CFB100B6856F /* ToDo list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo list.swift"; sourceTree = "<group>"; };
+		FA0C73322EF3DA4A00B6856F /* StateConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateConcept.swift; sourceTree = "<group>"; };
+		FA0C73342EF3DB1000B6856F /* BindingConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingConcept.swift; sourceTree = "<group>"; };
+		FA0C733C2EF40B6B00B6856F /* ObservedObjectConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectConcept.swift; sourceTree = "<group>"; };
+		FA0C733E2EF40C5500B6856F /* StateObjectConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectConcept.swift; sourceTree = "<group>"; };
+		FA0C73402EF40CE000B6856F /* EnvironmentObjectPassingtoChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectPassingtoChildView.swift; sourceTree = "<group>"; };
+		FA0C73422EF40FE600B6856F /* EnvironmentConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentConcept.swift; sourceTree = "<group>"; };
+		FA0C73442EF410F100B6856F /* NavigationView and NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationView and NavigationLink.swift"; sourceTree = "<group>"; };
+		FA0C73462EF4126300B6856F /* Presenting Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presenting Sheets.swift"; sourceTree = "<group>"; };
+		FA0C73482EF4148200B6856F /* Programmatic Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Programmatic Navigation.swift"; sourceTree = "<group>"; };
+		FA0C734A2EF4169700B6856F /* FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover.swift; sourceTree = "<group>"; };
+		FA0C734C2EF417BB00B6856F /* Passing Data Using NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passing Data Using NavigationLink.swift"; sourceTree = "<group>"; };
+		FA0C734E2EF4185700B6856F /* Passing Data Using Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passing Data Using Sheets.swift"; sourceTree = "<group>"; };
+		FA0C73502EF425B200B6856F /* Using EnvironmentObject for Shared Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Using EnvironmentObject for Shared Data.swift"; sourceTree = "<group>"; };
+		FA0C73522EF426AF00B6856F /* Implicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Implicit Animations.swift"; sourceTree = "<group>"; };
+		FA0C73542EF427D000B6856F /* Explicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Explicit Animations.swift"; sourceTree = "<group>"; };
+		FA0C73562EF428EF00B6856F /* Animating Bindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animating Bindings.swift"; sourceTree = "<group>"; };
+		FA0C73582EF42AC400B6856F /* Transition Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transition Animations.swift"; sourceTree = "<group>"; };
+		FA0C735A2EF42BD100B6856F /* Animating Complex Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animating Complex Views.swift"; sourceTree = "<group>"; };
+		FA0C735C2EF42C9F00B6856F /* Creating Custom Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Creating Custom Transitions.swift"; sourceTree = "<group>"; };
 		FA19BD6D2EC8EE600075DE4B /* APiCalling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APiCalling.swift; sourceTree = "<group>"; };
 		FA19BD6F2EC8EE600075DE4B /* BindingPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPropertyWrapper.swift; sourceTree = "<group>"; };
 		FA19BD702EC8EE600075DE4B /* ChangeTimeOfDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTimeOfDayView.swift; sourceTree = "<group>"; };
@@ -55,6 +104,7 @@
 		FA19BD9E2EC909E90075DE4B /* HStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExample.swift; sourceTree = "<group>"; };
 		FA19BDA02EC90A070075DE4B /* ZSTACKExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSTACKExample.swift; sourceTree = "<group>"; };
 		FA19BDA22EC90A210075DE4B /* ZStackTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackTask.swift; sourceTree = "<group>"; };
+		FA518B622EE891B100D33185 /* GlassAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +132,51 @@
 				3884B7712E3D2F4D001BBCF2 /* SwiftUI Practice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0C73132EF3C24B00B6856F /* Basics Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C73562EF428EF00B6856F /* Animating Bindings.swift */,
+				FA0C735A2EF42BD100B6856F /* Animating Complex Views.swift */,
+				FA0C73342EF3DB1000B6856F /* BindingConcept.swift */,
+				FA0C73422EF40FE600B6856F /* EnvironmentConcept.swift */,
+				FA0C73402EF40CE000B6856F /* EnvironmentObjectPassingtoChildView.swift */,
+				FA0C73542EF427D000B6856F /* Explicit Animations.swift */,
+				FA0C734A2EF4169700B6856F /* FullScreenCover.swift */,
+				FA0C73522EF426AF00B6856F /* Implicit Animations.swift */,
+				FA0C73442EF410F100B6856F /* NavigationView and NavigationLink.swift */,
+				FA0C733C2EF40B6B00B6856F /* ObservedObjectConcept.swift */,
+				FA0C734C2EF417BB00B6856F /* Passing Data Using NavigationLink.swift */,
+				FA0C734E2EF4185700B6856F /* Passing Data Using Sheets.swift */,
+				FA0C73462EF4126300B6856F /* Presenting Sheets.swift */,
+				FA0C73482EF4148200B6856F /* Programmatic Navigation.swift */,
+				FA0C73322EF3DA4A00B6856F /* StateConcept.swift */,
+				FA0C732B2EF3CE5A00B6856F /* StateManagement.swift */,
+				FA0C733E2EF40C5500B6856F /* StateObjectConcept.swift */,
+				FA0C73142EF3C30900B6856F /* SwiftUI Essentials.swift */,
+				FA0C73582EF42AC400B6856F /* Transition Animations.swift */,
+				FA0C73502EF425B200B6856F /* Using EnvironmentObject for Shared Data.swift */,
+				FA0C735C2EF42C9F00B6856F /* Creating Custom Transitions.swift */,
+			);
+			path = "Basics Concepts";
+			sourceTree = "<group>";
+		};
+		FA0C73162EF3C57400B6856F /* ToDo List App */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C73172EF3C5AE00B6856F /* ToDoItem.swift */,
+				FA0C73192EF3C60500B6856F /* ListView.swift */,
+			);
+			path = "ToDo List App";
+			sourceTree = "<group>";
+		};
+		FA0C732D2EF3CF7200B6856F /* ToDo list */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C73302EF3CFB100B6856F /* ToDo list.swift */,
+			);
+			path = "ToDo list";
 			sourceTree = "<group>";
 		};
 		FA19BD6E2EC8EE600075DE4B /* ApiCalling */ = {
@@ -166,18 +261,22 @@
 		FA19BD882EC8EE600075DE4B /* SwiftUI Practice */ = {
 			isa = PBXGroup;
 			children = (
-				FA19BD9B2EC909BC0075DE4B /* StackConcepts */,
+				FA518B612EE8919200D33185 /* Animations */,
 				FA19BD6E2EC8EE600075DE4B /* ApiCalling */,
+				FA19BD862EC8EE600075DE4B /* Assets.xcassets */,
+				FA0C73132EF3C24B00B6856F /* Basics Concepts */,
 				FA19BD712EC8EE600075DE4B /* Binding */,
 				FA19BD732EC8EE600075DE4B /* NavigationStack */,
+				FA19BD9B2EC909BC0075DE4B /* StackConcepts */,
 				FA19BD762EC8EE600075DE4B /* State And Binding Property */,
 				FA19BD7B2EC8EE600075DE4B /* StateAndBinding */,
 				FA19BD7D2EC8EE600075DE4B /* StateAndObservedObject */,
 				FA19BD802EC8EE600075DE4B /* StateObjectVsObservedObject */,
 				FA19BD822EC8EE600075DE4B /* StateView */,
-				FA19BD852EC8EE600075DE4B /* WeatherApp */,
-				FA19BD862EC8EE600075DE4B /* Assets.xcassets */,
 				FA19BD872EC8EE600075DE4B /* SwiftUI_PracticeApp.swift */,
+				FA0C732D2EF3CF7200B6856F /* ToDo list */,
+				FA0C73162EF3C57400B6856F /* ToDo List App */,
+				FA19BD852EC8EE600075DE4B /* WeatherApp */,
 			);
 			path = "SwiftUI Practice";
 			sourceTree = "<group>";
@@ -191,6 +290,14 @@
 				FA19BDA22EC90A210075DE4B /* ZStackTask.swift */,
 			);
 			path = StackConcepts;
+			sourceTree = "<group>";
+		};
+		FA518B612EE8919200D33185 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				FA518B622EE891B100D33185 /* GlassAnimations.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,27 +372,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0C734D2EF417BB00B6856F /* Passing Data Using NavigationLink.swift in Sources */,
 				FA19BD892EC8EE600075DE4B /* APiCalling.swift in Sources */,
+				FA0C73312EF3CFB100B6856F /* ToDo list.swift in Sources */,
 				FA19BD8A2EC8EE600075DE4B /* BindingPropertyWrapper.swift in Sources */,
 				FA19BD8B2EC8EE600075DE4B /* ChangeTimeOfDayView.swift in Sources */,
 				FA19BD8C2EC8EE600075DE4B /* NavigationStackView.swift in Sources */,
+				FA0C73452EF410F100B6856F /* NavigationView and NavigationLink.swift in Sources */,
+				FA0C73152EF3C30900B6856F /* SwiftUI Essentials.swift in Sources */,
+				FA0C73432EF40FE600B6856F /* EnvironmentConcept.swift in Sources */,
+				FA0C73512EF425B200B6856F /* Using EnvironmentObject for Shared Data.swift in Sources */,
 				FA19BD8D2EC8EE600075DE4B /* ChildView.swift in Sources */,
 				FA19BDA32EC90A210075DE4B /* ZStackTask.swift in Sources */,
+				FA0C731A2EF3C60500B6856F /* ListView.swift in Sources */,
+				FA0C735D2EF42C9F00B6856F /* Creating Custom Transitions.swift in Sources */,
 				FA19BD8E2EC8EE600075DE4B /* ParentView.swift in Sources */,
 				FA19BD8F2EC8EE600075DE4B /* Example01.swift in Sources */,
 				FA19BD902EC8EE600075DE4B /* Example02.swift in Sources */,
+				FA0C73532EF426AF00B6856F /* Implicit Animations.swift in Sources */,
 				FA19BD912EC8EE600075DE4B /* Example03.swift in Sources */,
 				FA19BD922EC8EE600075DE4B /* Example04.swift in Sources */,
 				FA19BDA12EC90A070075DE4B /* ZSTACKExample.swift in Sources */,
+				FA0C73472EF4126300B6856F /* Presenting Sheets.swift in Sources */,
 				FA19BD9F2EC909E90075DE4B /* HStackExample.swift in Sources */,
+				FA0C73182EF3C5AE00B6856F /* ToDoItem.swift in Sources */,
 				FA19BD932EC8EE600075DE4B /* StateAndObservedObject.swift in Sources */,
+				FA0C73412EF40CE000B6856F /* EnvironmentObjectPassingtoChildView.swift in Sources */,
 				FA19BD9D2EC909CB0075DE4B /* VSTACKExample.swift in Sources */,
+				FA0C73352EF3DB1000B6856F /* BindingConcept.swift in Sources */,
+				FA0C732C2EF3CE5A00B6856F /* StateManagement.swift in Sources */,
+				FA0C733D2EF40B6B00B6856F /* ObservedObjectConcept.swift in Sources */,
+				FA0C733F2EF40C5500B6856F /* StateObjectConcept.swift in Sources */,
+				FA518B632EE891B100D33185 /* GlassAnimations.swift in Sources */,
+				FA0C735B2EF42BD100B6856F /* Animating Complex Views.swift in Sources */,
 				FA19BD942EC8EE600075DE4B /* MainView.swift in Sources */,
 				FA19BD952EC8EE600075DE4B /* StateVsObservedObject.swift in Sources */,
+				FA0C73492EF4148200B6856F /* Programmatic Navigation.swift in Sources */,
+				FA0C73592EF42AC400B6856F /* Transition Animations.swift in Sources */,
+				FA0C734B2EF4169700B6856F /* FullScreenCover.swift in Sources */,
 				FA19BD962EC8EE600075DE4B /* StateView.swift in Sources */,
+				FA0C734F2EF4185700B6856F /* Passing Data Using Sheets.swift in Sources */,
 				FA19BD972EC8EE600075DE4B /* WeatherAppView.swift in Sources */,
 				FA19BD982EC8EE600075DE4B /* WeatherButton.swift in Sources */,
 				FA19BD992EC8EE600075DE4B /* SwiftUI_PracticeApp.swift in Sources */,
+				FA0C73572EF428EF00B6856F /* Animating Bindings.swift in Sources */,
+				FA0C73332EF3DA4A00B6856F /* StateConcept.swift in Sources */,
+				FA0C73552EF427D000B6856F /* Explicit Animations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +552,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C8744QQHTB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

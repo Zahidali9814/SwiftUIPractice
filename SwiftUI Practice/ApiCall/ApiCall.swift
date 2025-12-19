@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ApiCall: View {
     
     @State private var user: GitHubUser?
     
@@ -24,6 +24,7 @@ struct ContentView: View {
             }
             .frame(width: 100, height: 100)
             
+            // MARK: - Place holder
             Text(user?.login ?? "loin placeholder")
                 .font(.title3)
                 .bold()
@@ -51,6 +52,7 @@ struct ContentView: View {
 
 // MARK: - function
 func getUser() async throws -> GitHubUser {
+    
     let endpoint = "https://api.github.com/users/twostraws"
     guard let url = URL(string: endpoint) else {
         throw GitHubError.invalidUrl
@@ -69,7 +71,7 @@ func getUser() async throws -> GitHubUser {
 }
 
 #Preview {
-    ContentView()
+    ApiCall()
 }
 
 // MARK: - Model

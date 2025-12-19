@@ -31,7 +31,7 @@
 		FA0C73592EF42AC400B6856F /* Transition Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C73582EF42AC400B6856F /* Transition Animations.swift */; };
 		FA0C735B2EF42BD100B6856F /* Animating Complex Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C735A2EF42BD100B6856F /* Animating Complex Views.swift */; };
 		FA0C735D2EF42C9F00B6856F /* Creating Custom Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C735C2EF42C9F00B6856F /* Creating Custom Transitions.swift */; };
-		FA19BD892EC8EE600075DE4B /* APiCalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD6D2EC8EE600075DE4B /* APiCalling.swift */; };
+		FA19BD892EC8EE600075DE4B /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD6D2EC8EE600075DE4B /* ApiCall.swift */; };
 		FA19BD8A2EC8EE600075DE4B /* BindingPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD6F2EC8EE600075DE4B /* BindingPropertyWrapper.swift */; };
 		FA19BD8B2EC8EE600075DE4B /* ChangeTimeOfDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD702EC8EE600075DE4B /* ChangeTimeOfDayView.swift */; };
 		FA19BD8C2EC8EE600075DE4B /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD722EC8EE600075DE4B /* NavigationStackView.swift */; };
@@ -48,12 +48,14 @@
 		FA19BD972EC8EE600075DE4B /* WeatherAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD832EC8EE600075DE4B /* WeatherAppView.swift */; };
 		FA19BD982EC8EE600075DE4B /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD842EC8EE600075DE4B /* WeatherButton.swift */; };
 		FA19BD992EC8EE600075DE4B /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD872EC8EE600075DE4B /* SwiftUI_PracticeApp.swift */; };
-		FA19BD9A2EC8EE600075DE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA19BD862EC8EE600075DE4B /* Assets.xcassets */; };
 		FA19BD9D2EC909CB0075DE4B /* VSTACKExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD9C2EC909CB0075DE4B /* VSTACKExample.swift */; };
 		FA19BD9F2EC909E90075DE4B /* HStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD9E2EC909E90075DE4B /* HStackExample.swift */; };
 		FA19BDA12EC90A070075DE4B /* ZSTACKExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BDA02EC90A070075DE4B /* ZSTACKExample.swift */; };
 		FA19BDA32EC90A210075DE4B /* ZStackTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BDA22EC90A210075DE4B /* ZStackTask.swift */; };
 		FA518B632EE891B100D33185 /* GlassAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA518B622EE891B100D33185 /* GlassAnimations.swift */; };
+		FA5EE5932EF566B200156895 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EE5922EF566B200156895 /* Post.swift */; };
+		FA5EE5952EF5673600156895 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EE5942EF5673600156895 /* ViewModel.swift */; };
+		FA5EE5972EF567AB00156895 /* ApiCallingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EE5962EF567AB00156895 /* ApiCallingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,7 +84,7 @@
 		FA0C73582EF42AC400B6856F /* Transition Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transition Animations.swift"; sourceTree = "<group>"; };
 		FA0C735A2EF42BD100B6856F /* Animating Complex Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animating Complex Views.swift"; sourceTree = "<group>"; };
 		FA0C735C2EF42C9F00B6856F /* Creating Custom Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Creating Custom Transitions.swift"; sourceTree = "<group>"; };
-		FA19BD6D2EC8EE600075DE4B /* APiCalling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APiCalling.swift; sourceTree = "<group>"; };
+		FA19BD6D2EC8EE600075DE4B /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 		FA19BD6F2EC8EE600075DE4B /* BindingPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPropertyWrapper.swift; sourceTree = "<group>"; };
 		FA19BD702EC8EE600075DE4B /* ChangeTimeOfDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTimeOfDayView.swift; sourceTree = "<group>"; };
 		FA19BD722EC8EE600075DE4B /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
@@ -98,14 +100,54 @@
 		FA19BD812EC8EE600075DE4B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		FA19BD832EC8EE600075DE4B /* WeatherAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppView.swift; sourceTree = "<group>"; };
 		FA19BD842EC8EE600075DE4B /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
-		FA19BD862EC8EE600075DE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA19BD872EC8EE600075DE4B /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		FA19BD9C2EC909CB0075DE4B /* VSTACKExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSTACKExample.swift; sourceTree = "<group>"; };
 		FA19BD9E2EC909E90075DE4B /* HStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExample.swift; sourceTree = "<group>"; };
 		FA19BDA02EC90A070075DE4B /* ZSTACKExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSTACKExample.swift; sourceTree = "<group>"; };
 		FA19BDA22EC90A210075DE4B /* ZStackTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackTask.swift; sourceTree = "<group>"; };
 		FA518B622EE891B100D33185 /* GlassAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassAnimations.swift; sourceTree = "<group>"; };
+		FA5EE5922EF566B200156895 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FA5EE5942EF5673600156895 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FA5EE5962EF567AB00156895 /* ApiCallingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA5EE5682EF5593100156895 /* MockData */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		FA5EE5692EF5593500156895 /* VewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VewModel;
+			sourceTree = "<group>";
+		};
+		FA5EE56A2EF5593800156895 /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA5EE56B2EF5593D00156895 /* Service */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FA5EE56C2EF5594000156895 /* Protocol */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FA5EE56D2EF5594300156895 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA5EE5882EF564E300156895 /* Assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3884B76E2E3D2F4D001BBCF2 /* Frameworks */ = {
@@ -179,12 +221,12 @@
 			path = "ToDo list";
 			sourceTree = "<group>";
 		};
-		FA19BD6E2EC8EE600075DE4B /* ApiCalling */ = {
+		FA19BD6E2EC8EE600075DE4B /* ApiCall */ = {
 			isa = PBXGroup;
 			children = (
-				FA19BD6D2EC8EE600075DE4B /* APiCalling.swift */,
+				FA19BD6D2EC8EE600075DE4B /* ApiCall.swift */,
 			);
-			path = ApiCalling;
+			path = ApiCall;
 			sourceTree = "<group>";
 		};
 		FA19BD712EC8EE600075DE4B /* Binding */ = {
@@ -261,11 +303,13 @@
 		FA19BD882EC8EE600075DE4B /* SwiftUI Practice */ = {
 			isa = PBXGroup;
 			children = (
+				FA5EE5892EF5666100156895 /* ApiCalling */,
 				FA518B612EE8919200D33185 /* Animations */,
-				FA19BD6E2EC8EE600075DE4B /* ApiCalling */,
-				FA19BD862EC8EE600075DE4B /* Assets.xcassets */,
+				FA19BD6E2EC8EE600075DE4B /* ApiCall */,
+				FA5EE5882EF564E300156895 /* Assets */,
 				FA0C73132EF3C24B00B6856F /* Basics Concepts */,
 				FA19BD712EC8EE600075DE4B /* Binding */,
+				FA5EE5662EF558D100156895 /* MockDataTesting */,
 				FA19BD732EC8EE600075DE4B /* NavigationStack */,
 				FA19BD9B2EC909BC0075DE4B /* StackConcepts */,
 				FA19BD762EC8EE600075DE4B /* State And Binding Property */,
@@ -273,10 +317,10 @@
 				FA19BD7D2EC8EE600075DE4B /* StateAndObservedObject */,
 				FA19BD802EC8EE600075DE4B /* StateObjectVsObservedObject */,
 				FA19BD822EC8EE600075DE4B /* StateView */,
-				FA19BD872EC8EE600075DE4B /* SwiftUI_PracticeApp.swift */,
 				FA0C732D2EF3CF7200B6856F /* ToDo list */,
 				FA0C73162EF3C57400B6856F /* ToDo List App */,
 				FA19BD852EC8EE600075DE4B /* WeatherApp */,
+				FA19BD872EC8EE600075DE4B /* SwiftUI_PracticeApp.swift */,
 			);
 			path = "SwiftUI Practice";
 			sourceTree = "<group>";
@@ -300,6 +344,29 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		FA5EE5662EF558D100156895 /* MockDataTesting */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EE56D2EF5594300156895 /* Model */,
+				FA5EE56C2EF5594000156895 /* Protocol */,
+				FA5EE56B2EF5593D00156895 /* Service */,
+				FA5EE56A2EF5593800156895 /* View */,
+				FA5EE5692EF5593500156895 /* VewModel */,
+				FA5EE5682EF5593100156895 /* MockData */,
+			);
+			path = MockDataTesting;
+			sourceTree = "<group>";
+		};
+		FA5EE5892EF5666100156895 /* ApiCalling */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EE5922EF566B200156895 /* Post.swift */,
+				FA5EE5942EF5673600156895 /* ViewModel.swift */,
+				FA5EE5962EF567AB00156895 /* ApiCallingView.swift */,
+			);
+			path = ApiCalling;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -314,6 +381,15 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA5EE5682EF5593100156895 /* MockData */,
+				FA5EE5692EF5593500156895 /* VewModel */,
+				FA5EE56A2EF5593800156895 /* View */,
+				FA5EE56B2EF5593D00156895 /* Service */,
+				FA5EE56C2EF5594000156895 /* Protocol */,
+				FA5EE56D2EF5594300156895 /* Model */,
+				FA5EE5882EF564E300156895 /* Assets */,
 			);
 			name = "SwiftUI Practice";
 			packageProductDependencies = (
@@ -361,7 +437,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA19BD9A2EC8EE600075DE4B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +447,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5EE5952EF5673600156895 /* ViewModel.swift in Sources */,
 				FA0C734D2EF417BB00B6856F /* Passing Data Using NavigationLink.swift in Sources */,
-				FA19BD892EC8EE600075DE4B /* APiCalling.swift in Sources */,
+				FA19BD892EC8EE600075DE4B /* ApiCall.swift in Sources */,
 				FA0C73312EF3CFB100B6856F /* ToDo list.swift in Sources */,
 				FA19BD8A2EC8EE600075DE4B /* BindingPropertyWrapper.swift in Sources */,
 				FA19BD8B2EC8EE600075DE4B /* ChangeTimeOfDayView.swift in Sources */,
@@ -388,6 +464,8 @@
 				FA0C735D2EF42C9F00B6856F /* Creating Custom Transitions.swift in Sources */,
 				FA19BD8E2EC8EE600075DE4B /* ParentView.swift in Sources */,
 				FA19BD8F2EC8EE600075DE4B /* Example01.swift in Sources */,
+				FA5EE5972EF567AB00156895 /* ApiCallingView.swift in Sources */,
+				FA5EE5932EF566B200156895 /* Post.swift in Sources */,
 				FA19BD902EC8EE600075DE4B /* Example02.swift in Sources */,
 				FA0C73532EF426AF00B6856F /* Implicit Animations.swift in Sources */,
 				FA19BD912EC8EE600075DE4B /* Example03.swift in Sources */,

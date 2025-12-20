@@ -28,7 +28,7 @@ struct StateVsObservedObject: View {
     var body: some View {
         
         Text("Count: \(vm.count)")
-        
+
         Button("Increment") {
             vm.incrementCount()
         }

@@ -26,6 +26,7 @@ struct MainView: View {
     @StateObject var vm = viewModell()
     
     var body: some View {
+        
         VStack(spacing: 24) {
             Text("Main View Counter: \(vm.count)")
                 .font(.title)

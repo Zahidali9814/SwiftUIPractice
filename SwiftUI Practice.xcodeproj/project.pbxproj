@@ -41,7 +41,7 @@
 		FA19BD902EC8EE600075DE4B /* Example02.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD782EC8EE600075DE4B /* Example02.swift */; };
 		FA19BD912EC8EE600075DE4B /* Example03.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD792EC8EE600075DE4B /* Example03.swift */; };
 		FA19BD922EC8EE600075DE4B /* Example04.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD7A2EC8EE600075DE4B /* Example04.swift */; };
-		FA19BD932EC8EE600075DE4B /* StateAndObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD7C2EC8EE600075DE4B /* StateAndObservedObject.swift */; };
+		FA19BD932EC8EE600075DE4B /* StateObjectAndObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD7C2EC8EE600075DE4B /* StateObjectAndObservedObject.swift */; };
 		FA19BD942EC8EE600075DE4B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD7E2EC8EE600075DE4B /* MainView.swift */; };
 		FA19BD952EC8EE600075DE4B /* StateVsObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD7F2EC8EE600075DE4B /* StateVsObservedObject.swift */; };
 		FA19BD962EC8EE600075DE4B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19BD812EC8EE600075DE4B /* StateView.swift */; };
@@ -94,7 +94,7 @@
 		FA19BD782EC8EE600075DE4B /* Example02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example02.swift; sourceTree = "<group>"; };
 		FA19BD792EC8EE600075DE4B /* Example03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example03.swift; sourceTree = "<group>"; };
 		FA19BD7A2EC8EE600075DE4B /* Example04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example04.swift; sourceTree = "<group>"; };
-		FA19BD7C2EC8EE600075DE4B /* StateAndObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndObservedObject.swift; sourceTree = "<group>"; };
+		FA19BD7C2EC8EE600075DE4B /* StateObjectAndObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectAndObservedObject.swift; sourceTree = "<group>"; };
 		FA19BD7E2EC8EE600075DE4B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FA19BD7F2EC8EE600075DE4B /* StateVsObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVsObservedObject.swift; sourceTree = "<group>"; };
 		FA19BD812EC8EE600075DE4B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
@@ -145,6 +145,11 @@
 		FA5EE5882EF564E300156895 /* Assets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		FA6A4B172EF69C7F0093F5F3 /* ArticlesListView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArticlesListView;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -266,12 +271,12 @@
 			path = StateAndBinding;
 			sourceTree = "<group>";
 		};
-		FA19BD7D2EC8EE600075DE4B /* StateAndObservedObject */ = {
+		FA19BD7D2EC8EE600075DE4B /* StateObjectAndObservedObject */ = {
 			isa = PBXGroup;
 			children = (
-				FA19BD7C2EC8EE600075DE4B /* StateAndObservedObject.swift */,
+				FA19BD7C2EC8EE600075DE4B /* StateObjectAndObservedObject.swift */,
 			);
-			path = StateAndObservedObject;
+			path = StateObjectAndObservedObject;
 			sourceTree = "<group>";
 		};
 		FA19BD802EC8EE600075DE4B /* StateObjectVsObservedObject */ = {
@@ -303,6 +308,7 @@
 		FA19BD882EC8EE600075DE4B /* SwiftUI Practice */ = {
 			isa = PBXGroup;
 			children = (
+				FA6A4B162EF69C6F0093F5F3 /* EnvironementObject */,
 				FA5EE5892EF5666100156895 /* ApiCalling */,
 				FA518B612EE8919200D33185 /* Animations */,
 				FA19BD6E2EC8EE600075DE4B /* ApiCall */,
@@ -314,7 +320,7 @@
 				FA19BD9B2EC909BC0075DE4B /* StackConcepts */,
 				FA19BD762EC8EE600075DE4B /* State And Binding Property */,
 				FA19BD7B2EC8EE600075DE4B /* StateAndBinding */,
-				FA19BD7D2EC8EE600075DE4B /* StateAndObservedObject */,
+				FA19BD7D2EC8EE600075DE4B /* StateObjectAndObservedObject */,
 				FA19BD802EC8EE600075DE4B /* StateObjectVsObservedObject */,
 				FA19BD822EC8EE600075DE4B /* StateView */,
 				FA0C732D2EF3CF7200B6856F /* ToDo list */,
@@ -367,6 +373,14 @@
 			path = ApiCalling;
 			sourceTree = "<group>";
 		};
+		FA6A4B162EF69C6F0093F5F3 /* EnvironementObject */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A4B172EF69C7F0093F5F3 /* ArticlesListView */,
+			);
+			path = EnvironementObject;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -390,6 +404,7 @@
 				FA5EE56C2EF5594000156895 /* Protocol */,
 				FA5EE56D2EF5594300156895 /* Model */,
 				FA5EE5882EF564E300156895 /* Assets */,
+				FA6A4B172EF69C7F0093F5F3 /* ArticlesListView */,
 			);
 			name = "SwiftUI Practice";
 			packageProductDependencies = (
@@ -474,7 +489,7 @@
 				FA0C73472EF4126300B6856F /* Presenting Sheets.swift in Sources */,
 				FA19BD9F2EC909E90075DE4B /* HStackExample.swift in Sources */,
 				FA0C73182EF3C5AE00B6856F /* ToDoItem.swift in Sources */,
-				FA19BD932EC8EE600075DE4B /* StateAndObservedObject.swift in Sources */,
+				FA19BD932EC8EE600075DE4B /* StateObjectAndObservedObject.swift in Sources */,
 				FA0C73412EF40CE000B6856F /* EnvironmentObjectPassingtoChildView.swift in Sources */,
 				FA19BD9D2EC909CB0075DE4B /* VSTACKExample.swift in Sources */,
 				FA0C73352EF3DB1000B6856F /* BindingConcept.swift in Sources */,

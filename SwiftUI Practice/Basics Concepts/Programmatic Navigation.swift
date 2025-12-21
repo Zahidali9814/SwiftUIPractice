@@ -5,27 +5,21 @@
 //  Created by Zahid Ali on 18/12/2025.
 //
 
-// SwiftUI allows for programmatic navigation using NavigationLink with a @State variable to control the navigation.
-
 import SwiftUI
 
 struct Programmatic_Navigation: View {
     
-    @State private var isActive = false
+    @State private var navigationPath = NavigationPath()
     
     var body: some View {
-        NavigationView {
-            VStack{
+        NavigationStack(path: $navigationPath) {
+            VStack {
                 Text("Home View")
                     .font(.largeTitle)
                     .padding()
                 
-                NavigationLink(destination: DetailsView(), isActive: $isActive) {
-                    EmptyView()
-                }
-                
                 Button(action: {
-                    isActive = true
+                    navigationPath.append("Details")
                 }) {
                     Text("Go to detail view")
                         .padding()
@@ -35,11 +29,17 @@ struct Programmatic_Navigation: View {
                 }
             }
             .navigationTitle("Home")
+            .navigationDestination(for: String.self) { value in
+                if value == "Details" {
+                    DetailsView()
+                }
+            }
         }
     }
 }
 
 struct DetailsView: View {
+    
     var body: some View {
         VStack {
             Text("Detail View")

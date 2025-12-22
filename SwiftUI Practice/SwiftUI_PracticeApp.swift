@@ -23,7 +23,7 @@ struct SwiftUI_PracticeApp: App {
 //            ArticlesListView() // step 3 this is root view
 //                .environmentObject(currentTheme) // Make the theme available through the environment.
             
-            RandomNumberGenerator()
+            Super_ScrollView()
         }
     }
 }

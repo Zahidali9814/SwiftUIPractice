@@ -9,15 +9,15 @@ import SwiftUI
 
 struct ArticlesListView: View {
     
-    @EnvironmentObject var theme: Theme // create a reference
+   // @EnvironmentObject var theme: Theme // create a reference
     
     var body: some View {
         Text("Hello, World!")
-            .foregroundStyle(theme.primarColor)
+         //   .foregroundStyle(theme.primarColor)
     }
 }
 
 #Preview {
     ArticlesListView()
-        .environmentObject(Theme())
+    //    .environmentObject(Theme())
 }
